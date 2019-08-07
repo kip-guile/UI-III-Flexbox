@@ -63,4 +63,150 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.bigcontainer {
+
+	justify-content:space-evenly;
+	
+	
+}
+
+.innovationbox{
+	padding:20px;
+
+	display:flex;
+}
+
+p {
+	margin: 10px 10px 10px 10px;
+}
+
+.servicebox {
+	width:20%;
+	height:10%;
+	/*background-color: chartreuse;*/
+	
+
+}
+
+.featurebox {
+	width:32%;
+	height:10%;
+	/*background-color: red;*/
+	
+
+}
+
+.footer{
+	/*background-color: brown;*/
+	height:20%;
+	padding:20px;
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+
+
+}
+
+.middle-img{
+	display:flex;
+	justify-content:flex-start;
+	align-content:flex-start;
+	padding:10px;
+}
+
+h1{
+	font-size: 80px;
+	margin: 80px -60px 0px 80px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	text-align: center;
+}
+
+.circle{
+	display:flex;
+	justify-content:flex-end;
+	margin:0px 0px 0px 200px;
+}
+
+hr{
+	width:70%;
+	margin:0px 0px 0px 0px;
+	border:1px solid black;
+	display:flex;
+	justify-content: flex-start;
+}
+
+
+
+.getstarted{
+	border:2px solid black;
+	font-size: 15px;
+	position: absolute;
+	top:60%;
+	left:13%;
+	padding: 10px 50px 10px 50px;
+}
+
+.navhead{
+	display:flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width:100%;
+	justify-content: space-between;
+	align-content: baseline;
+}
+
+.servicecontainer{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	align-items:flex-start;
+	align-content: space-between;
+	padding:10px;
+}
+
+.featurecontainer {
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	align-items:flex-start;
+	align-content: space-between;
+	padding: 10px;
+}
+
+.bodybag{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items: flex-start;
+	align-content:space-around;
+	padding:20px;
+}
+
+.navigation{
+	display:flex;
+	flex-direction:row;
+	padding: 10px 10px 10px 20px;
+	justify-content:space-between;
+	align-items: center;
+
+	width: 80%;
+	text-decoration: none;
+}
+
+.logo {
+	width:10%;
+
+	display: flex;
+	justify-content:flex-end;
+	align-content: flex-end;
+	margin:10px;
+	
+}
