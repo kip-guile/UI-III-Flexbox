@@ -261,7 +261,31 @@ hr{
 
 .firstnavblock{
 	display:flex;
+	width:60%;
+	margin:10px;
+	padding:10px;
 }
+
+.firstnavblock .logoimage{
+	display:flex;
+	background-color: coral;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0px 0px 0px 100px;
+	padding: -10px;
+}
+
+.firstnavblock ul {
+	display:flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.firstnavblock ul li {
+	margin: 10px;
+}
+
+
 
 .secondnavblock .services-header-img{
 	margin:10px;
