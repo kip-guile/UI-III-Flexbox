@@ -63,4 +63,266 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.bigcontainer {
+
+	justify-content:space-evenly;
+	
+	
+}
+
+.innovationbox{
+	padding:20px;
+
+	display:flex;
+}
+
+p {
+	margin: 10px 10px 10px 10px;
+}
+
+.servicebox {
+	width:20%;
+	height:10%;
+	/*background-color: chartreuse;*/
+	
+
+}
+
+.featurebox {
+	width:32%;
+	height:10%;
+	/*background-color: red;*/
+	
+
+}
+
+.footer{
+	/*background-color: brown;*/
+	height:20%;
+	padding:20px;
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+
+
+}
+
+.middle-img{
+	display:flex;
+	justify-content:flex-start;
+	align-content:flex-start;
+	padding:10px;
+}
+
+h1{
+	font-size: 80px;
+	margin: 80px -60px 0px 80px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	text-align: center;
+}
+
+.circle{
+	display:flex;
+	justify-content:flex-end;
+	margin:0px 0px 0px 200px;
+}
+
+hr{
+	width:70%;
+	margin:0px 0px 0px 0px;
+	border:1px solid black;
+	display:flex;
+	justify-content: flex-start;
+}
+
+
+
+.getstarted{
+	border:2px solid black;
+	font-size: 15px;
+	position: absolute;
+	top:60%;
+	left:13%;
+	padding: 10px 50px 10px 50px;
+}
+
+.navhead{
+	display:flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width:100%;
+	justify-content: space-between;
+	align-content: baseline;
+}
+
+.servicecontainer{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	align-items:flex-start;
+	align-content: space-between;
+	padding:10px;
+}
+
+.featurecontainer {
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	align-items:flex-start;
+	align-content: space-between;
+	padding: 10px;
+}
+
+.bodybag{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items: flex-start;
+	align-content:space-around;
+	padding:20px;
+}
+
+.navigation{
+	display:flex;
+	flex-direction:row;
+	padding: 10px 10px 10px 20px;
+	justify-content:space-between;
+	align-items: center;
+
+	width: 80%;
+	text-decoration: none;
+}
+
+.logo {
+	width:10%;
+
+	display: flex;
+	justify-content:flex-end;
+	align-content: flex-end;
+	margin:10px;
+	
+}
+
+.majorcontainer{
+
+
+}
+
+.services-nav-container{
+	width:80%;
+	display:flex;
+
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	align-content: space-between;
+	padding: 10px;
+
+}
+
+.secondblock{
+	display:flex;
+	width:80%;
+
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	align-content: space-evenly;
+	padding: 10px;
+
+}
+
+.secondblock .box{
+	width: 40%;
+	border:2px solid black;
+	margin: 10px;
+	padding:10px;
+	display:flex;
+	align-items:center;
+}
+
+.secondblock .boxlink{
+	border:1px solid black;
+	padding: 5px;
+	margin:3px;
+	display:flex;
+	align-items:center;
+}
+
+.firstnavblock{
+	display:flex;
+	width:60%;
+	margin:10px;
+	padding:10px;
+}
+
+.firstnavblock .logoimage{
+	display:flex;
+	background-color: coral;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0px 0px 0px 100px;
+	padding: -10px;
+}
+
+.firstnavblock ul {
+	display:flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.firstnavblock ul li {
+	margin: 10px;
+}
+
+
+
+.secondnavblock .services-header-img{
+	margin:10px;
+
+}
+
+.secondnavblock .services{
+	margin:10px;
+	width:80%;
+}
+
+.secondnavblock .services h2{
+	font-size:30px;
+}
+
+.footbox{
+
+	width:80%;
+	display:flex;
+
+}
+
+.footbox .firstfootbox{
+	width:40%;
+	padding:20px;
+}
+
+.footbox .firstfootbox ul{
+	padding:30px;
+}
+
+.footbox .services-info-img{
+	width:40%;
+	margin:0px 0px 0px 30px;
+	display:flex;
+}
+
+footer{
+	text-align: center;
+}
